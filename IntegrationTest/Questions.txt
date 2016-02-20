@@ -1,0 +1,7 @@
+What is your name?,0
+How old are you?,1
+What is your sex?,2
+What is your occupation?,3
+How did you spend your last night?,4
+Have you been to ammos bar?,5
+

@@ -1,0 +1,57 @@
+﻿Build started 19/02/2016 23:24:17.
+     1>Project "Z:\MyProfile\Documents\Visual Studio 2013\Projects\CrimeGameTest\Character\Character.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CHARACTER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Character.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CHARACTER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Character.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Character.cpp NonPlayer.cpp Player.cpp
+         Player.cpp
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\character.h(22): warning C4251: 'CCharacter::m_sName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CCharacter'
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\character.h(23): warning C4251: 'CCharacter::m_sJob' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CCharacter'
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\player.h(17): warning C4251: 'Player::m_sQuestion' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Player'
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\player.h(18): warning C4251: 'Player::m_slQuestions' : class 'std::list<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Player'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\player.h(19): warning C4251: 'Player::m_ilNumbers' : class 'std::list<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Player'
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\player.h(20): warning C4251: 'Player::m_ilcCurrent' : class 'std::_List_const_iterator<std::_List_val<std::_List_simple_types<int>>>' needs to have dll-interface to be used by clients of class 'Player'
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\player.h(21): warning C4251: 'Player::m_slcCurrent' : class 'std::_List_const_iterator<std::_List_val<std::_List_simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>' needs to have dll-interface to be used by clients of class 'Player'
+         NonPlayer.cpp
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\character.h(22): warning C4251: 'CCharacter::m_sName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CCharacter'
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\character.h(23): warning C4251: 'CCharacter::m_sJob' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CCharacter'
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\nonplayer.h(18): warning C4251: 'NonPlayer::m_sAnswer' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'NonPlayer'
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\nonplayer.h(19): warning C4251: 'NonPlayer::m_slAnswers' : class 'std::list<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'NonPlayer'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\nonplayer.h(20): warning C4251: 'NonPlayer::m_ilNumbers' : class 'std::list<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'NonPlayer'
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\nonplayer.h(21): warning C4251: 'NonPlayer::m_ilcCurrent' : class 'std::_List_const_iterator<std::_List_val<std::_List_simple_types<int>>>' needs to have dll-interface to be used by clients of class 'NonPlayer'
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\nonplayer.h(22): warning C4251: 'NonPlayer::m_slcCurrent' : class 'std::_List_const_iterator<std::_List_val<std::_List_simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>' needs to have dll-interface to be used by clients of class 'NonPlayer'
+         Character.cpp
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\character.h(22): warning C4251: 'CCharacter::m_sName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CCharacter'
+     1>z:\myprofile\documents\visual studio 2013\projects\crimegametest\character\character.h(23): warning C4251: 'CCharacter::m_sJob' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CCharacter'
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CHARACTER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\MyProfile\Documents\Visual Studio 2013\Projects\CrimeGameTest\Debug\Character.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\MyProfile\Documents\Visual Studio 2013\Projects\CrimeGameTest\Debug\Character.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\MyProfile\Documents\Visual Studio 2013\Projects\CrimeGameTest\Debug\Character.lib" /MACHINE:X86 /DLL Debug\Character.obj
+         Debug\dllmain.obj
+         Debug\NonPlayer.obj
+         Debug\Player.obj
+         Debug\stdafx.obj
+            Creating library Z:\MyProfile\Documents\Visual Studio 2013\Projects\CrimeGameTest\Debug\Character.lib and object Z:\MyProfile\Documents\Visual Studio 2013\Projects\CrimeGameTest\Debug\Character.exp
+         Character.vcxproj -> Z:\MyProfile\Documents\Visual Studio 2013\Projects\CrimeGameTest\Debug\Character.dll
+     1>Done Building Project "Z:\MyProfile\Documents\Visual Studio 2013\Projects\CrimeGameTest\Character\Character.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.69
